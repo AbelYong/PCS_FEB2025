@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxappescolar.controlador.FXMLPrincipalController">
+   <children>
+      <Label layoutX="32.0" layoutY="31.0" text="Bienvenido(a)">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbNombre" layoutX="32.0" layoutY="78.0" />
+      <Label fx:id="lbUsuario" layoutX="32.0" layoutY="119.0" />
+      <Button layoutX="471.0" layoutY="16.0" mnemonicParsing="false" onAction="#clicBtnCerrarSesion" text="Cerrar Sesion" />
+      <Button layoutX="14.0" layoutY="169.0" mnemonicParsing="false" onAction="#clicBtnAdminAlumnos" text="Ir a Administración de Alumnos" />
+      <ImageView fitHeight="174.0" fitWidth="200.0" layoutX="325.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@recursos/imagenes/lis%20logo%20BW.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
